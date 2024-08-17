@@ -1,3 +1,41 @@
+.page {
+    font-family: 'Arial', sans-serif;
+}
+
+.intro__text, .about__text {
+    line-height: 1.6;
+}
+
+.footer__text {
+    margin: 0;
+}
+/* Personalización de Bootstrap */
+
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.header__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-caption h5 {
+    font-size: 1.75rem;
+}
+
+.gallery__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gallery img {
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
 /* Estilos para los slots de imágenes */
 .image-slot {
     overflow: hidden;
