@@ -1,0 +1,29 @@
+/* Estilos para los slots de imágenes */
+.image-slot {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-slot--small {
+    width: 100%;
+    padding-top: 75%; /* Relación de aspecto 4:3 */
+}
+
+.image-slot--medium {
+    width: 100%;
+    padding-top: 66.67%; /* Relación de aspecto 3:2 */
+}
+
+.image-slot--large {
+    width: 100%;
+    padding-top: 50%; /* Relación de aspecto 2:1 */
+}
+
+.image-slot__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+}
